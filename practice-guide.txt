@@ -1,0 +1,32 @@
+DESI DATA DRAMA / PRACTICE-001
+Fictional website practice case, not an official episode.
+
+QUESTION
+Six payments are listed. Which invoice needs duplicate-payment verification?
+
+EXCEL
+Open payments.csv. Columns A:D are payment_id, invoice_id, vendor, amount.
+In E1 enter Repeat count. In E2 enter =COUNTIF($B$2:$B$7,B2).
+Fill E2 down to E7. Filter E for values above 1.
+
+SQL
+Open investigation.sql with SQLite and run it. It creates a practice table,
+inserts the six rows and groups invoice/vendor combinations with count > 1.
+
+POWER BI
+Get data > Text/CSV > payments.csv. Confirm amount is a whole number.
+Create measure: Payment entries = COUNTROWS(payments)
+Use a table visual with invoice_id, vendor, Payment entries, Sum of amount.
+Filter the visual by Payment entries > 1.
+
+PYTHON
+Place investigate.py beside payments.csv, then run: python investigate.py
+No external packages are required.
+
+FINDINGS
+INV-103 / Tara Systems has PAY-003 and PAY-005, each INR 12000.
+Total register: INR 64500. One payment per invoice: INR 52500.
+Potential extra payment: INR 12000.
+A repeated reference is a clue, not proof of wrongdoing. Check original
+invoices, bank references, reversals and authorised instalments before action.
+

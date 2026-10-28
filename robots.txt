@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nareshswaroop123-byte.github.io/desi-data-drama/sitemap.xml

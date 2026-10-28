@@ -1,0 +1,1 @@
+(()=>{document.querySelector('#office-front').src=window.DDD_OFFICE_ASSETS.front;for(const [k,v] of Object.entries(window.DDD_CONTENT.office?.theme||{}))if(/^#[0-9a-f]{6}$/i.test(v))document.documentElement.style.setProperty('--office-'+k,v);})();

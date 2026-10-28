@@ -1,0 +1,8 @@
+payment_id,invoice_id,vendor,amount
+PAY-001,INV-101,Neem Supplies,8500
+PAY-002,INV-102,Kesar Print,6000
+PAY-003,INV-103,Tara Systems,12000
+PAY-004,INV-104,Neem Supplies,18000
+PAY-005,INV-103,Tara Systems,12000
+PAY-006,INV-105,Kesar Print,8000
+

@@ -1,0 +1,27 @@
+# Public deployment only. Review additions before extending this allowlist.
+# Ignores new secrets, config, masters, raw datasets, archives and editor exports.
+/*
+!/.gitignore
+!/.nojekyll
+!/content-model.js
+!/content-view.js
+!/content.js
+!/dashboard-embed.css
+!/dashboard-embed.js
+!/dashboard.html
+!/index.html
+!/investigate.py
+!/investigation.sql
+!/office-assets.js
+!/office-lobby.js
+!/office-theme.css
+!/payments.csv
+!/practice-guide.txt
+!/robots.txt
+!/script.js
+!/sitemap.xml
+!/styles.css
+!/tour-data.js
+!/tour.css
+!/tour.html
+!/tour.js

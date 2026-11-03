@@ -4,7 +4,7 @@ window.DDD_CONTENT = {
     "headline": [
       "Welcome to",
       "Datta Enterprises.",
-      "Come inside."
+      "Office mein aaiye!"
     ],
     "intro": "Visit the office you know. Explore the floors, step into each cabin and meet the people behind Desi Data Drama."
   },

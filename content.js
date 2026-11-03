@@ -14,7 +14,7 @@ window.DDD_CONTENT = {
       "name": "Raghubir",
       "role": "Security Guard",
       "bio": "The front gate is the starting point of the office journey.",
-      "image": ""
+      "image": "assets/characters/Raghubir.png"
     },
     {
       "id": "person-2",
